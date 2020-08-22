@@ -2,10 +2,10 @@ import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['../assets/css/material-dashboard.css']
+  templateUrl: 'app.component.html',
+  styles: []
 })
 
 export class AppComponent {
-  title = 'title';
+  title = 'Todo';
 }
